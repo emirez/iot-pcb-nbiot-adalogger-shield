@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3568,6 +3568,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="A+D3" library="connector" deviceset="HEADER-4P" device="-80/40MIL"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="A+D1" library="connector" deviceset="HEADER-4P" device="-80/40MIL"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="A+D4" library="connector" deviceset="HEADER-4P" device="-80/40MIL"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3600,6 +3601,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="GND2" gate="1" x="180.34" y="127"/>
 <instance part="A+D3" gate="G$1" x="226.06" y="134.62"/>
 <instance part="GND3" gate="1" x="213.36" y="127"/>
+<instance part="A+D1" gate="G$1" x="160.02" y="134.62"/>
 <instance part="GND4" gate="1" x="147.32" y="127"/>
 <instance part="A+D4" gate="G$1" x="160.02" y="114.3"/>
 <instance part="GND5" gate="1" x="147.32" y="106.68"/>
@@ -3701,6 +3703,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <label x="38.1" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="A+D1" gate="G$1" pin="P$2"/>
 <wire x1="152.4" y1="135.89" x2="147.32" y2="135.89" width="0.1524" layer="91"/>
 <label x="149.86" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -3730,6 +3733,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <label x="38.1" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="A+D1" gate="G$1" pin="P$1"/>
 <wire x1="152.4" y1="138.43" x2="147.32" y2="138.43" width="0.1524" layer="91"/>
 <label x="149.86" y="139.7" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -4064,6 +4068,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <label x="215.9" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
+<pinref part="A+D1" gate="G$1" pin="P$3"/>
 <wire x1="152.4" y1="133.35" x2="147.32" y2="133.35" width="0.1524" layer="91"/>
 <label x="149.86" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -4129,6 +4134,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="A+D1" gate="G$1" pin="P$4"/>
 <wire x1="147.32" y1="129.54" x2="147.32" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="130.81" x2="152.4" y2="130.81" width="0.1524" layer="91"/>
 </segment>
