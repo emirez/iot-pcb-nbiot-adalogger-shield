@@ -155,10 +155,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="4.5" y1="12" x2="53.68" y2="12" width="0" layer="20"/>
-<wire x1="53.68" y1="12" x2="53.68" y2="36.75" width="0" layer="20"/>
-<wire x1="53.68" y1="36.75" x2="4.5" y2="36.75" width="0" layer="20"/>
-<wire x1="4.5" y1="36.75" x2="4.5" y2="12" width="0" layer="20"/>
+<wire x1="4.5" y1="10" x2="53.68" y2="10" width="0" layer="20"/>
+<wire x1="53.68" y1="10" x2="53.68" y2="39.75" width="0" layer="20"/>
+<wire x1="53.68" y1="39.75" x2="4.5" y2="39.75" width="0" layer="20"/>
+<wire x1="4.5" y1="39.75" x2="4.5" y2="10" width="0" layer="20"/>
 <text x="12.06" y="-0.05" size="1.778" layer="21">ThingForward</text>
 <wire x1="12.06" y1="2.49" x2="12.06" y2="-1.32" width="0.127" layer="21" curve="143.130102"/>
 <wire x1="29.3" y1="-1.32" x2="29.3" y2="2.49" width="0.127" layer="21" curve="143.130102"/>
@@ -787,8 +787,8 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="BREADBOARD_SPACING" package3d_urn="urn:adsk.eagle:package:37153/1" value="" x="3.23" y="27.13" rot="R90"/>
-<element name="A/D1" library="Seeed-Connector -2016" package="HW4-2.0" value="4P-2.0" x="28.65" y="24.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.38" y="29.72" size="0.889" layer="25" font="vector" ratio="11"/>
+<element name="A/D1" library="Seeed-Connector -2016" package="HW4-2.0" value="4P-2.0" x="28.15" y="25.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="26.88" y="30.72" size="0.889" layer="25" font="vector" ratio="11"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X12" package3d_urn="urn:adsk.eagle:package:22487/2" value="" x="24" y="33.5"/>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X16" package3d_urn="urn:adsk.eagle:package:22432/2" value="" x="29" y="17"/>
@@ -822,23 +822,23 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND">
 <polygon width="0.254" layer="1" isolate="0.3048">
-<vertex x="4.5" y="36.76"/>
-<vertex x="4.5" y="12"/>
-<vertex x="53.51" y="12"/>
-<vertex x="53.51" y="36.76"/>
+<vertex x="4.5" y="39.76"/>
+<vertex x="4.5" y="10"/>
+<vertex x="53.51" y="10"/>
+<vertex x="53.51" y="39.76"/>
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.3048">
-<vertex x="4.5" y="36.76"/>
-<vertex x="4.5" y="12"/>
-<vertex x="53.51" y="12"/>
-<vertex x="53.51" y="36.76"/>
+<vertex x="4.5" y="39.76"/>
+<vertex x="4.5" y="10"/>
+<vertex x="53.51" y="10"/>
+<vertex x="53.51" y="39.76"/>
 </polygon>
 <contactref element="A/D1" pad="4"/>
 <contactref element="JP4" pad="4"/>
 <contactref element="I2C" pad="4"/>
 <contactref element="UART" pad="4"/>
 <contactref element="JP4" pad="16"/>
-<wire x1="48.05" y1="17" x2="28.65" y2="21.64" width="0" layer="19" extent="1-1"/>
+<wire x1="48.05" y1="17" x2="28.15" y2="22.64" width="0" layer="19" extent="1-1"/>
 <wire x1="17.57" y1="17" x2="48.05" y2="17" width="0" layer="19" extent="1-1"/>
 <wire x1="47.5" y1="32.5" x2="17.57" y2="17" width="0" layer="19" extent="1-1"/>
 <wire x1="8" y1="23" x2="47.5" y2="32.5" width="0" layer="19" extent="1-1"/>
@@ -850,7 +850,7 @@ design rules under a new name.</description>
 <contactref element="JP4" pad="2"/>
 <contactref element="I2C" pad="3"/>
 <contactref element="A/D1" pad="3"/>
-<wire x1="28.65" y1="23.64" x2="48.53" y2="39.64" width="0" layer="19" extent="1-16"/>
+<wire x1="28.15" y1="24.64" x2="48.53" y2="39.64" width="0" layer="19" extent="1-16"/>
 <contactref element="UART" pad="3"/>
 <wire x1="12.49" y1="17" x2="48.53" y2="39.64" width="0" layer="19" extent="1-1"/>
 <wire x1="45.5" y1="32.5" x2="12.49" y2="17" width="0" layer="19" extent="1-1"/>
@@ -866,7 +866,7 @@ design rules under a new name.</description>
 <contactref element="JP4" pad="6"/>
 <contactref element="A/D1" pad="1"/>
 <wire x1="31.75" y1="43.18" x2="30.48" y2="41.91" width="0" layer="19" extent="1-16"/>
-<wire x1="28.65" y1="27.64" x2="56.69" y2="43.18" width="0" layer="19" extent="1-16"/>
+<wire x1="28.15" y1="28.64" x2="56.69" y2="43.18" width="0" layer="19" extent="1-16"/>
 <wire x1="56.69" y1="43.18" x2="31.75" y2="43.18" width="0" layer="19" extent="1-16"/>
 <wire x1="22.65" y1="17" x2="30.48" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -875,7 +875,7 @@ design rules under a new name.</description>
 <contactref element="A/D1" pad="2"/>
 <wire x1="33.02" y1="40.64" x2="34.29" y2="41.91" width="0" layer="19" extent="1-16"/>
 <wire x1="34.29" y1="41.91" x2="56.88" y2="41.91" width="0" layer="19" extent="1-16"/>
-<wire x1="56.88" y1="41.91" x2="28.65" y2="25.64" width="0" layer="19" extent="1-16"/>
+<wire x1="56.88" y1="41.91" x2="28.15" y2="26.64" width="0" layer="19" extent="1-16"/>
 <wire x1="25.19" y1="17" x2="33.02" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A3">
