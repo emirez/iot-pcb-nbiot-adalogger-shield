@@ -862,6 +862,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP2" library="microbuilder" deviceset="HEADER-1X16" device="ROUND"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="A/D2" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" value="4P-2.0"/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -880,6 +882,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP2" gate="A" x="60.96" y="111.76" rot="R180"/>
 <instance part="GND2" gate="1" x="180.34" y="121.92" rot="R180"/>
 <instance part="GND1" gate="1" x="180.34" y="96.52" rot="R180"/>
+<instance part="A/D2" gate="G$1" x="220.98" y="114.3"/>
+<instance part="GND3" gate="1" x="210.82" y="121.92" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -969,6 +973,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="186.69" y1="92.71" x2="180.34" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="92.71" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="A/D2" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="217.17" y1="118.11" x2="210.82" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="118.11" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RST" class="0">
 <segment>
@@ -1021,12 +1031,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="68.58" y="114.3" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="9"/>
 </segment>
+<segment>
+<pinref part="A/D2" gate="G$1" pin="4"/>
+<wire x1="217.17" y1="110.49" x2="210.82" y2="110.49" width="0.1524" layer="91"/>
+<label x="205.74" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A4" class="0">
 <segment>
 <wire x1="63.5" y1="111.76" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
 <label x="68.58" y="111.76" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="8"/>
+</segment>
+<segment>
+<pinref part="A/D2" gate="G$1" pin="3"/>
+<wire x1="217.17" y1="113.03" x2="210.82" y2="113.03" width="0.1524" layer="91"/>
+<label x="205.74" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -1139,6 +1159,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="UART" gate="G$1" pin="2"/>
 <wire x1="186.69" y1="90.17" x2="180.34" y2="90.17" width="0.1524" layer="91"/>
 <label x="175.26" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="A/D2" gate="G$1" pin="2"/>
+<wire x1="217.17" y1="115.57" x2="210.82" y2="115.57" width="0.1524" layer="91"/>
+<label x="205.74" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
