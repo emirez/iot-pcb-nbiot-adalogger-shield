@@ -156,9 +156,8 @@
 <board>
 <plain>
 <text x="30.904" y="17.448" size="1.016" layer="21">ThingForward</text>
-<text x="6.932" y="12.908" size="1.016" layer="21">GND</text>
-<text x="12.604" y="11.792" size="1.016" layer="22" rot="MR180">NB-IoT Shield for 
-Adafruit Boards by
+<text x="8.794" y="12.046" size="1.016" layer="22" rot="MR180">NB-IoT Shield for 
+Adafruit Feather Boards by
 www.thingforward.io</text>
 <hole x="1.674" y="21.308" drill="2.54"/>
 <hole x="47.436" y="21.308" drill="2.032"/>
@@ -166,7 +165,7 @@ www.thingforward.io</text>
 <hole x="1.674" y="2.268" drill="2.54"/>
 <text x="36.864" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">6</text>
 <text x="27.11" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">12</text>
-<text x="17.11" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">BAT</text>
+<text x="17.618" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">BAT</text>
 <text x="19.61" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">EN</text>
 <text x="29.61" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">11</text>
 <text x="39.364" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">5</text>
@@ -192,9 +191,9 @@ www.thingforward.io</text>
 <text x="40.11" y="3.33" size="0.8636" layer="21" distance="200" rot="R180">RX</text>
 <text x="42.11" y="3.33" size="0.8636" layer="21" distance="200" rot="R180">TX</text>
 <text x="45.618" y="3.33" size="0.8636" layer="21" distance="200" rot="R180">GND</text>
-<text x="18.916" y="17.48" size="1.016" layer="21" rot="R180">UART</text>
-<text x="9.19" y="15.448" size="1.016" layer="21" rot="R180">A/D</text>
-<text x="41.522" y="14.686" size="1.016" layer="21">I2C</text>
+<text x="11.55" y="16.21" size="0.8636" layer="21" rot="R180">UART</text>
+<text x="6.904" y="11.384" size="0.8636" layer="21" rot="R270">A/D</text>
+<text x="43.808" y="9.352" size="0.8636" layer="21" rot="R90">I2C</text>
 <wire x1="50.8" y1="21.844" x2="49.53" y2="23.114" width="0.2032" layer="20" curve="90"/>
 <wire x1="49.53" y1="23.114" x2="1.016" y2="23.114" width="0.2032" layer="20"/>
 <wire x1="50.8" y1="21.844" x2="50.8" y2="1.524" width="0.2032" layer="20"/>
@@ -202,57 +201,56 @@ www.thingforward.io</text>
 <wire x1="49.53" y1="0.254" x2="1.27" y2="0.254" width="0.2032" layer="20"/>
 <wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.2032" layer="20" curve="-90"/>
 <wire x1="0" y1="1.524" x2="0" y2="22.098" width="0.2032" layer="20"/>
-<text x="27.732" y="15.702" size="1.016" layer="21" rot="R180">A/D2</text>
+<text x="26.97" y="11.638" size="0.8636" layer="21" rot="R270">A/D2</text>
 <text x="25.908" y="13.208" size="1.778" layer="22" rot="MR0">ThingForward</text>
-<wire x1="25.654" y1="15.494" x2="11.176" y2="15.494" width="0.1524" layer="22"/>
-<wire x1="10.16" y1="14.478" x2="10.16" y2="13.462" width="0.1524" layer="22"/>
-<wire x1="10.16" y1="13.462" x2="10.668" y2="12.954" width="0.1524" layer="22" curve="90"/>
-<wire x1="10.668" y1="12.954" x2="19.304" y2="12.954" width="0.1524" layer="22"/>
+<wire x1="26.416" y1="15.494" x2="11.176" y2="15.494" width="0.1524" layer="22"/>
+<wire x1="10.16" y1="14.478" x2="10.16" y2="12.954" width="0.1524" layer="22"/>
+<wire x1="10.16" y1="12.954" x2="19.304" y2="12.954" width="0.1524" layer="22"/>
 <wire x1="19.304" y1="12.954" x2="19.812" y2="12.446" width="0.1524" layer="22" curve="-90"/>
 <wire x1="21.082" y1="12.954" x2="25.146" y2="12.954" width="0.1524" layer="22"/>
 <wire x1="25.146" y1="12.954" x2="26.416" y2="14.224" width="0.1524" layer="22" curve="90"/>
-<wire x1="26.416" y1="13.97" x2="26.416" y2="14.732" width="0.1524" layer="22"/>
-<wire x1="26.416" y1="14.732" x2="25.654" y2="15.494" width="0.1524" layer="22" curve="90"/>
 <wire x1="11.176" y1="15.494" x2="10.16" y2="14.478" width="0.1524" layer="22" curve="90"/>
-<wire x1="39.878" y1="17.272" x2="34.798" y2="17.272" width="0.1524" layer="21"/>
+<wire x1="40.132" y1="17.272" x2="34.798" y2="17.272" width="0.1524" layer="21"/>
 <wire x1="34.798" y1="17.272" x2="34.544" y2="17.018" width="0.1524" layer="21" curve="90"/>
 <wire x1="0" y1="22.098" x2="1.016" y2="23.114" width="0.2032" layer="20" curve="-90"/>
 <text x="32.766" y="13.97" size="1.016" layer="21">   NB-IoT 
       Shield</text>
-<wire x1="38.862" y1="17.018" x2="38.862" y2="15.748" width="0.2032" layer="21"/>
-<wire x1="38.862" y1="15.748" x2="39.37" y2="15.24" width="0.2032" layer="21" curve="-90"/>
-<wire x1="39.37" y1="15.24" x2="39.37" y2="13.716" width="0.2032" layer="21"/>
-<wire x1="39.878" y1="16.764" x2="40.132" y2="16.256" width="0.127" layer="21" curve="-126.869898"/>
-<wire x1="40.386" y1="17.018" x2="40.64" y2="16.51" width="0.1524" layer="21" curve="-126.869898"/>
-<wire x1="40.894" y1="17.272" x2="41.148" y2="16.764" width="0.2032" layer="21" curve="-126.869898"/>
-<wire x1="39.37" y1="18.796" x2="39.878" y2="18.288" width="0.1524" layer="21" curve="-90"/>
+<wire x1="39.37" y1="17.018" x2="39.37" y2="15.748" width="0.2032" layer="21"/>
+<wire x1="39.37" y1="15.748" x2="39.878" y2="15.24" width="0.2032" layer="21" curve="-90"/>
+<wire x1="39.878" y1="15.24" x2="39.878" y2="13.716" width="0.2032" layer="21"/>
+<wire x1="40.132" y1="16.764" x2="40.386" y2="16.256" width="0.127" layer="21" curve="-126.869898"/>
+<wire x1="40.64" y1="17.018" x2="40.894" y2="16.51" width="0.1524" layer="21" curve="-126.869898"/>
+<wire x1="41.148" y1="17.272" x2="41.402" y2="16.764" width="0.2032" layer="21" curve="-126.869898"/>
 <wire x1="34.544" y1="14.986" x2="34.798" y2="14.732" width="0.1524" layer="21" curve="-90"/>
 <wire x1="34.798" y1="14.732" x2="34.798" y2="13.97" width="0.1524" layer="21"/>
 <wire x1="34.798" y1="13.97" x2="35.052" y2="13.716" width="0.1524" layer="21" curve="90"/>
-<wire x1="35.052" y1="13.716" x2="39.37" y2="13.716" width="0.1524" layer="21"/>
-<wire x1="39.878" y1="17.272" x2="39.878" y2="18.288" width="0.1524" layer="21"/>
-<wire x1="39.37" y1="18.796" x2="30.734" y2="18.796" width="0.1524" layer="21"/>
+<wire x1="35.052" y1="13.716" x2="39.878" y2="13.716" width="0.1524" layer="21"/>
+<wire x1="40.132" y1="17.272" x2="40.132" y2="18.288" width="0.1524" layer="21"/>
+<wire x1="39.624" y1="18.796" x2="30.734" y2="18.796" width="0.1524" layer="21"/>
 <wire x1="30.734" y1="18.796" x2="30.734" y2="17.78" width="0.1524" layer="21"/>
 <wire x1="30.734" y1="17.78" x2="31.242" y2="17.272" width="0.1524" layer="21" curve="90"/>
 <wire x1="31.242" y1="17.272" x2="33.274" y2="17.272" width="0.1524" layer="21"/>
 <wire x1="33.274" y1="17.272" x2="33.782" y2="16.764" width="0.1524" layer="21" curve="-90"/>
 <wire x1="33.782" y1="16.764" x2="33.782" y2="15.748" width="0.1524" layer="21"/>
 <wire x1="33.782" y1="15.748" x2="34.544" y2="14.986" width="0.1524" layer="21" curve="90"/>
-<text x="6.932" y="10.622" size="1.016" layer="21">3V</text>
-<text x="6.932" y="8.844" size="1.016" layer="21">A2</text>
-<text x="6.932" y="6.812" size="1.016" layer="21">A1</text>
-<text x="24.712" y="6.558" size="1.016" layer="21">GND</text>
-<text x="26.236" y="8.59" size="1.016" layer="21">3V</text>
-<text x="26.236" y="10.876" size="1.016" layer="21">A4</text>
-<text x="26.236" y="12.908" size="1.016" layer="21">A3</text>
-<text x="40.46" y="6.558" size="1.016" layer="21">GND</text>
-<text x="41.984" y="8.59" size="1.016" layer="21">3V</text>
-<text x="40.968" y="10.622" size="1.016" layer="21">SDA</text>
-<text x="40.968" y="12.908" size="1.016" layer="21">SCL</text>
-<text x="11.504" y="16.464" size="1.016" layer="21">GND</text>
-<text x="9.98" y="16.464" size="1.016" layer="21">3V</text>
-<text x="5.662" y="16.464" size="1.016" layer="21">RX</text>
-<text x="7.948" y="16.464" size="1.016" layer="21">TX</text>
+<text x="12.266" y="16.718" size="0.8636" layer="21">G</text>
+<text x="10.234" y="16.718" size="0.8636" layer="21">V</text>
+<text x="5.916" y="16.718" size="0.8636" layer="21">RX</text>
+<text x="7.948" y="16.718" size="0.8636" layer="21">TX</text>
+<wire x1="39.624" y1="18.796" x2="40.132" y2="18.288" width="0.1524" layer="21" curve="-90"/>
+<text x="5.662" y="12.908" size="0.8636" layer="21">G</text>
+<text x="5.662" y="10.876" size="0.8636" layer="21">V</text>
+<text x="5.154" y="8.844" size="0.8636" layer="21">A2</text>
+<text x="5.154" y="6.812" size="0.8636" layer="21">A1</text>
+<text x="28.014" y="12.908" size="0.8636" layer="21">A3</text>
+<text x="28.014" y="10.876" size="0.8636" layer="21">A4</text>
+<text x="28.522" y="6.812" size="0.8636" layer="21">G</text>
+<text x="28.522" y="8.844" size="0.8636" layer="21">V</text>
+<text x="44.524" y="6.812" size="0.8636" layer="21">G</text>
+<text x="44.524" y="8.844" size="0.8636" layer="21">V</text>
+<text x="44.016" y="12.908" size="0.8636" layer="21">CL</text>
+<text x="44.016" y="10.876" size="0.8636" layer="21">DA</text>
+<wire x1="26.416" y1="15.494" x2="26.416" y2="13.97" width="0.1524" layer="22"/>
 </plain>
 <libraries>
 <library name="Seeed-Connector -2016">
