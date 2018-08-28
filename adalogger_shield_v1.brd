@@ -214,7 +214,7 @@ www.thingforward.io</text>
 <wire x1="34.798" y1="17.272" x2="34.544" y2="17.018" width="0.1524" layer="21" curve="90"/>
 <wire x1="0" y1="22.098" x2="1.016" y2="23.114" width="0.2032" layer="20" curve="-90"/>
 <text x="32.766" y="13.97" size="1.016" layer="21">   NB-IoT 
-      Shield</text>
+     Shield</text>
 <wire x1="39.37" y1="17.018" x2="39.37" y2="15.748" width="0.2032" layer="21"/>
 <wire x1="39.37" y1="15.748" x2="39.878" y2="15.24" width="0.2032" layer="21" curve="-90"/>
 <wire x1="39.878" y1="15.24" x2="39.878" y2="13.716" width="0.2032" layer="21"/>
