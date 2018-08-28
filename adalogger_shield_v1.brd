@@ -38,11 +38,11 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -160,10 +160,10 @@
 <text x="12.604" y="11.792" size="1.016" layer="22" rot="MR180">NB-IoT Shield for 
 Adafruit Boards by
 www.thingforward.io</text>
-<hole x="2.436" y="21.308" drill="3"/>
-<hole x="48.198" y="21.308" drill="3"/>
-<hole x="48.198" y="2.268" drill="3"/>
-<hole x="2.436" y="2.268" drill="3"/>
+<hole x="1.674" y="21.308" drill="2.54"/>
+<hole x="47.436" y="21.308" drill="2.032"/>
+<hole x="47.436" y="2.268" drill="2.032"/>
+<hole x="1.674" y="2.268" drill="2.54"/>
 <text x="36.864" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">6</text>
 <text x="27.11" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">12</text>
 <text x="17.11" y="20.854" size="0.8636" layer="21" distance="200" rot="R180">BAT</text>
